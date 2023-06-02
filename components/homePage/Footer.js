@@ -115,6 +115,13 @@ const Footer = () => {
                   <IconPhone width="15" height="15" />
                 </span>
                 <span className="text">+ 38(050-8580704)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span className="item-questions__icon">
+                  <IconPhone width="15" height="15" />
+                </span>
                 <span className="text">+ 38(068-7892306)</span>
               </a>
             </li>

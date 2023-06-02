@@ -18,10 +18,10 @@ export default function HomePage() {
   return (
     // <AppFrame classes={{ drawer: className.drawer }}>
     // <Layout title={t("pageHome_title")} description={t("pageHome_description")}>
-    <Layout title="RoletY" description={t("pageHome_description")}>
+    <Layout title="BD" description={t("pageHome_description")}>
       <Head>
         {/* <title>{t("header-titleSite")}</title> */}
-        <title>RoletY</title>
+        <title>BD</title>
       </Head>
       {/*--HomeSlaider */}
       <HomeSlaider />

@@ -3,8 +3,8 @@
 
 const translations = {
   ua: {
-    loyOut_title: "RoletY", //=48 (40–65сим/з пробілами (мах–80))
-    logo_siteName: "RoletY",
+    loyOut_title: "DB", //=48 (40–65сим/з пробілами (мах–80))
+    logo_siteName: "DB",
     theme_Light: "Світла",
     theme_Dark: "Темна",
     themeSwitcher_title: "Тема (світла/темна)",
@@ -29,8 +29,8 @@ const translations = {
     //** */
   },
   en: {
-    loyOut_title: "RoletY",
-    logo_siteName: "RoletY",
+    loyOut_title: "DB",
+    logo_siteName: "DB",
     theme_Light: "Light",
     theme_Dark: "Dark",
     logo_logoTitle: "Home",
@@ -56,8 +56,8 @@ const translations = {
     //** */
   },
   pl: {
-    loyOut_title: "RoletY",
-    logo_siteName: "RoletY",
+    loyOut_title: "DB",
+    logo_siteName: "DB",
     logo_logoTitle: "Strona główna",
     theme_Light: "Światło",
     theme_Dark: "Сiemno",

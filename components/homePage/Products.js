@@ -1,95 +1,95 @@
 //Products.js
-import Image from 'next/image'
-import { useContext } from "react";
-import IconMenu from "../ui/icons/IconMenu";
-import IconCart from "../ui/icons/IconCart";
-import IconHeart from "../ui/icons/IconHeart";
-import { ComponentContext } from "../../context/ComponentContext";
+import Image from "next/image"
+import { useContext } from "react"
+import IconMenu from "../ui/icons/IconMenu"
+import IconCart from "../ui/icons/IconCart"
+import IconHeart from "../ui/icons/IconHeart"
+import { ComponentContext } from "../../context/ComponentContext"
 
 const Products = () => {
-  const { state } = useContext(ComponentContext);
-  const theme = state.theme;
+  const { state } = useContext(ComponentContext)
+  const theme = state.theme
   const products = [
     {
-      name: "DBBalkon1",
+      name: "Балкон кутовий",
       image: "/images/products/DBBalkon1.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBBalkon2",
+      name: " Бвлкон ",
       image: "/images/products/DBBalkon2.jpg",
       price: 128.0,
       discontProc: 30,
     },
     {
-      name: "DBBalkon3",
+      name: "Бвлкон",
       image: "/images/products/DBBalkon3.jpg",
       price: 120.0,
       discontProc: 0,
     },
     {
-      name: "DBBalkon4",
+      name: "Бвлкон",
       image: "/images/products/DBBalkon4.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBVeranda",
+      name: "Тираса",
       image: "/images/products/DBVeranda.jpg",
       price: 20.0,
       discontProc: 30,
     },
     {
-      name: "DBBalkonNavis",
+      name: "Балкон навіс",
       image: "/images/products/DBBalkonNavis.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBVerandaVn",
+      name: "Веранда",
       image: "/images/products/DBVerandaVn.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "BDVunograd",
+      name: "Опора під виноград",
       image: "/images/products/BDVunograd.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBVorota",
+      name: "Ворота",
       image: "/images/products/DBVorota.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBVorota1",
+      name: "Ворота",
       image: "/images/products/DBVorota1.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBVikno.",
+      name: "Решітка на вікно",
       image: "/images/products/DBVikno.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBLavka",
+      name: "Лавка",
       image: "/images/products/DBLavka.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBParkan",
+      name: "Паркан",
       image: "/images/products/DBParkan.jpg",
       price: 20.0,
       discontProc: 0,
     },
     {
-      name: "DBParkan1",
+      name: "Паркан",
       image: "/images/products/DBParkan1.jpg",
       price: 20.0,
       discontProc: 0,
@@ -160,9 +160,7 @@ const Products = () => {
     <section className="products-section">
       <div className="products-header-row">
         <div className="products-header-column">
-          <span className="products-header-column__subheading">
-            Рекомендовані вироби
-          </span>
+          <span className="products-header-column__subheading">Рекомендовані вироби</span>
           <h2 className="mb-4">Наші вироби</h2>
         </div>
       </div>
@@ -298,7 +296,7 @@ const Products = () => {
           box-sizing: border-box; //Width і height включають в себе значення полів і кордонів
           //width: 375px;
           width: calc(100%-2vw);
-        //   height: 420px;
+          //   height: 420px;
           height: 320px;
           border: 1px solid #c21d252d;
           //
@@ -364,7 +362,7 @@ const Products = () => {
         .products__img {
           padding: 2vw 0;
           width: 100%;
-        //   height: 270px;/   /Висота вирахлвуються при маштабуванні картинки(для cover треба 2-а розміри)
+          //   height: 270px;/   /Висота вирахлвуються при маштабуванні картинки(для cover треба 2-а розміри)
           object-fit: contain; //вся картинка з попорціями/контейнер не заповнений
           //object-fit: cover; //вся картинка з попорціями/контейнер не заповнений
         }
@@ -418,6 +416,6 @@ const Products = () => {
       `}</style>
     </section>
   )
-};
+}
 
-export default Products;
+export default Products

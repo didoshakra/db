@@ -107,7 +107,7 @@ const Footer = () => {
               <span className="item-questions__icon">
                 <IconMapMarker width="15" height="15" colorFill="#000" colorStroke="#000" />
               </span>
-              <span className="text"> вул. Гулака 11, Калуш, Україна</span>
+              <span className="text"> вул. Гулака 7, Калуш, Україна</span>
             </li>
             <li>
               <a href="#">

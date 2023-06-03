@@ -105,17 +105,14 @@ const HomeSlaider = () => {
           justify-content: center; //X-горизонтально
           flex-direction: column; //в стовбець
           text-align: center;
-          height: 650px; //Треба
-        }
-
-        .slider-text {
-          //   font-size: 8vw;
+          height: 650px; //Треба щоб було по центру
+            // font-size: 4vw;
           font-size: 50px;
-        //   color: #82ae46;
-          color: #ffff;
           line-height: 1.3;
           font-weight: 600;
-        //   font-family: ${theme.fontFamily.mimicHand};
+          //   font-family: ${theme.fontFamily.mimicHand};
+          //   color: #82ae46;
+          color: #ffff;
         }
 
         @media (min-width: 960px) {

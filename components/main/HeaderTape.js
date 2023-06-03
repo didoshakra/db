@@ -25,7 +25,8 @@ const HeaderTape = () => {
       <span className="headerTape__social">
         <span className="headerTape__social__text">
           {/* <FontAwesomeIcon icon={faPhoneAlt} /> */}
-          <IconPhone width={iconSize} height={iconSize} colorFill={theme.colors.headTapeText} />+ 38(050-8580704/068-7892306)
+          <IconPhone width={iconSize} height={iconSize} colorFill={theme.colors.headTapeText} />+
+          38(050-8580704/068-7892306)
         </span>
         {/* <span>
           <a
@@ -56,7 +57,7 @@ const HeaderTape = () => {
           />
         </a> */}
       </span>
-      <span className="headerTape__announce">Вироби з нержавійки під замовлення</span>
+      <span className="headerTape__announce">Вироби з нержавійки</span>
       {/* ======================================================================== */}
       <style jsx>{`
         .headerTape-section {

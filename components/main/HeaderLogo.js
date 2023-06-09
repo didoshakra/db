@@ -1,6 +1,7 @@
 //HeaderLogo.js
 
 import Link from "next/link"
+import Image from "next/image"
 import { useContext } from "react"
 import useTranslation from "../../translations/useTranslation"
 import { ComponentContext } from "../../context/ComponentContext"
@@ -19,6 +20,11 @@ const HeaderLogo = () => {
         </a>
       </Link> */}
       <Link href="/[lang]" as={`/${locale}`}>
+        <a className="headerLogo__icon">
+          <Image src="/images/home/StainlessSteelBoat.png" width={120} height={60} alt="Logo" />
+        </a>
+      </Link>
+      <Link href="/[lang]" as={`/${locale}`}>
         <a className="headerLogo__text" title={t("logo_logoTitle")}>
           DBogdan
           {/* DBStainless */}
@@ -33,6 +39,10 @@ const HeaderLogo = () => {
           align-items: center;
         }
 
+        .headerLogo__icon {
+          top: 20px;
+          align-items: center;
+        }
         .headerLogo__text {
           padding: 0 1vw;
           text-decoration: none;

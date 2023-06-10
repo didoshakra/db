@@ -25,7 +25,7 @@ const HomeSlaider = () => {
         <div className="overlay"></div>
         <div className="slider-text">
           Спроектуємо, виготовимо і встановимо
-          <h2 className="subheading">Без проблем і вчасно</h2>
+          {/* <h2 className="subheading">Без проблем і вчасно</h2> */}
         </div>
       </div>
       <style jsx>{`

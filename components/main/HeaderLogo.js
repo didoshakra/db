@@ -40,7 +40,7 @@ const HeaderLogo = () => {
         }
 
         .headerLogo__icon {
-          top: 20px;
+          justify-content: center;
           align-items: center;
         }
         .headerLogo__text {

@@ -77,8 +77,7 @@ const ThemeSwitche = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-          list-style-type: none;
-        }
+          list-style-type: none; 
         .themeSwitcher__icon {
           margin-right: 5px; //Відступ від кожного елемента зліва
           width: 36px;

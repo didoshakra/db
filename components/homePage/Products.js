@@ -221,7 +221,7 @@ const Products = () => {
           return (
             <div className="products-container" key={item}>
               {/* {item.discontProc > 0 ? <div className="products-container__discount-proc">{item.discontProc}%</div> : ""} */}
-              <h3>{item.name}</h3>
+              <h3>{item.title}</h3>
               <img className="products__img" src={item.image} alt="img" />
               {/* <div>
                 <h3>{item.name}</h3>

@@ -40,7 +40,6 @@ const HomeSlaider = () => {
           z-index: 10;
         }
         .image1 {
-          //   background: 100% transparent url("/images/home/rol10-1.jpg") no-repeat;
           background: 100% transparent url("/images/home/DBVorota1.jpg") no-repeat;
           animation-delay: 5s; //Затримка анімації для 2-го слайду
           z-index: 10;
@@ -87,6 +86,7 @@ const HomeSlaider = () => {
             z-index: 0; //Для видимості button
           }
         }
+        
         .overlay {
           position: absolute;
           //0,0,0,0-розтягує на весь батьківський блок не залежно від контенту
